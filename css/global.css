@@ -21,7 +21,7 @@ body {
 	font: 1em "Roboto Mono", 'Roboto', monospace;
 	font-weight: bold;
 	margin: 0 auto;
-	max-width: 850px;
+	max-width: 1024px;
 	text-align: center;
 }
 #main a {
@@ -157,8 +157,8 @@ hr.dotted {
 	margin-bottom: 5px;
 	/*padding: 5px;*/
 	transition: 0.85s;
-	width: 100% !important;
-	height: auto !important;
+	width: 100%;
+	height: auto;
 }
 .gallery img:hover {
 	/*filter: drop-shadow(5px 5px 3px #bbccee);*/
@@ -213,7 +213,7 @@ hr.dotted {
 }
 #about {
 	color: #ddeedd;
-	font-size: 1.13em;
+	font-size: 1em;
 }
 
 
