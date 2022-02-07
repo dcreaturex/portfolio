@@ -5,17 +5,12 @@
 <title>design creature x / digital illustrator</title>
 
 <link href="css/global.css" rel="stylesheet" type="text/css" />
-<!--<link href="css/small-device.css" rel="stylesheet" media="only screen and (max-device-width: 480px)" />
-<link href="lightbox2/dist/css/lightbox.min.css" />
-<script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>-->
 
 <link rel="shortcut icon" href="favicon.png"/>
 </head>
 
 <body>
 <header>
-    <!--<h4 style="text-align: center;">amber anderson</h4>
-	<p><em>illustrator + graphic designer</em></p>-->
 	<img src="img/pixelBannerX.png" />
 	
 	<nav id="menu">
@@ -85,14 +80,12 @@
 	<hr class="dotted">
 	
 	<p style="text-align: center;">where to find me elsewhere on the interwebz</p>&nbsp;
-    <section class="social">
+	<section class="social">
 		<a href="https://instagram.com/chromeamber" title="instagramming"><img src="img/instagramIcon.png" title="instagramming" /></a>
 		<a href="https://www.deviantart.com/ambersphere" title="devious on deviant art"><img src="img/deviantArtIcon.png" title="devious on deviant art" /></a>
 		<a href="https://www.artstation.com/chromeamber" title="docked on artstation"><img src="img/artstationIcon.png" title="docked on artstation" /></a>
         	<a href="http://twitter.com/chromeamber" title="tweet tweet"><img src="img/twitterIcon.png" title="tweet tweet" /></a>
-		<!--<a href="http://www.linkedin.com/in/ambercanderson" title="LinkedIn Profile"><img src="img/Linkedin.png" title="LinkedIn Profile" /></a>-->
-        	<!--<a href="http://www.designcreaturex.com" title="Infrequently Updated Blog"><img src="img/Wordpress.png" title="Infrequently Updated Blog" /></a>-->
-    </section>
+	</section>
 	<br><hr class="dotted"><br>
 </section>
 
@@ -100,10 +93,6 @@
 	<p>my illustrations are available <a href="https://www.redbubble.com/people/ambersphere/shop">on redbubble</a></p>
 	<p>&copy; <script>document.write(new Date().getFullYear())</script> amber anderson</p>
 </footer>
-
-<!-- [if lt IE 9] -->
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<!-- [endif] -->
 
 </body>
 
