@@ -1,37 +1,112 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/dcreaturex/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<title>design creature x / digital illustrator</title>
 
-### Markdown
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<!--<link href="css/small-device.css" rel="stylesheet" media="only screen and (max-device-width: 480px)" />
+<link href="lightbox2/dist/css/lightbox.min.css" />
+<script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>-->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<link rel="shortcut icon" href="favicon.png"/>
+</head>
 
-```markdown
-Syntax highlighted code block
+<body>
+<header>
+    <!--<h4 style="text-align: center;">amber anderson</h4>
+	<p><em>illustrator + graphic designer</em></p>-->
+	<img src="img/pixelBannerX.png" />
+	
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html#illustration">♦ illustration ♦</a></li> | <li><a href="index.html#nerdAlert">♦ nerd alert ♦</a></li> | <li><a href="index.html#gemstone">♦ gemstone coffins ♦</a></li> | <li><a href="index.html#typo">♦ write it down ♦</a></li> | <li><a href="index.html#about">♦ about ♦</a></li>
+		</ul>
+	</nav>
+</header>
 
-# Header 1
-## Header 2
-### Header 3
+<section id="main">	
+	<hr class="dotted">
+	
+	<section id="illustration">
+		<blockquote class="title" id="nerdAlert">- talk nerdy to me -</blockquote>
+		<p>something nerdy this way comes</p>
+		<br>
+		<section class="gallery">
+			<a href="img/magicD20duo.jpg"><img src="img/magicD20duo.jpg" alt="ask the magic d20" title="ask the magic d20" /></a>
+			<a href="img/caffeineMolecule.jpg"><img src="img/caffeineMolecule.jpg" alt="beam me up scotty" title="beam me up scotty" /></a>
+			<a href="img/serotoninMolecule"><img src="img/serotoninMolecule.jpg" alt="oh joy" title="oh joy" /></a>
+			<a href="img/hopsHumuloneMolecule.jpg"><img src="img/hopsHumuloneMolecule.jpg" alt="beer me" title="beer me" /></a>
+			<a href="img/diceAxeDuo.jpg"><img src="img/diceAxeDuo.jpg" alt="dice axe" title="dice axe" /></a>
+			<a href="img/byteMe.jpg"><img src="img/byteMe.jpg" alt="byte me ghost" title="byte me ghost" /></a>
+		</section>
 
-- Bulleted
-- List
+	<hr class="dotted">
+		
+		<blockquote class="title" id="gemstone">- lopoly gemstone coffins -</blockquote>
+		<p>take time to enjoy the finer things whether you're alive or dead</p>
+		<br>
+		<section class="gallery">
+			<a href="img/amethystCoffin.jpg"><img src="img/amethystCoffin.jpg" alt="amethyst coffin" title="amethyst coffin" /></a>
+			<a href="img/emeraldCoffin.jpg"><img src="img/emeraldCoffin.jpg" alt="emerald coffin" title="emerald coffin" /></a>
+			<a href="img/sapphireCoffin.jpg"><img src="img/sapphireCoffin.jpg" alt="sapphire coffin" title="sapphire coffin" /></a>
+			<a href="img/popArtCoffin.jpg"><img src="img/popArtCoffin.jpg" alt="pop art gemstone coffin" title="pop art gemstone coffin" /></a>
+			<a href="img/rubyCoffin.jpg"><img src="img/rubyCoffin.jpg" alt="ruby coffin" title="ruby coffin" /></a>
+			<a href="img/tourmalineCoffin.jpg"><img src="img/tourmalineCoffin.jpg" alt="watermelon tourmaline coffin" title="watermelon tourmaline coffin" /></a>
+			<a href="img/obsidianCoffin.jpg"><img src="img/obsidianCoffin.jpg" alt="rainbow obsidian coffin" title="rainbow obsidian coffin" /></a>
+		</section>
+		
+	<hr class="dotted">
+		
+		<blockquote class="title" id="typo">- write it down -</blockquote>
+		<p>a delve into typography focused illustration</p>
+		<br>
+		<section class="gallery">
+			<a href="img/saltyAFdcx.jpg"><img src="img/saltyAFdcx.jpg" alt="salty af" title="salty af" /></a>
+			<a href="img/3dFuck.jpg"><img src="img/3dFuck.jpg" alt="cmyk wtaf" title="cmyk wtaf" /></a>
+			<a href="img/happyShirt.jpg"><img src="img/happyShirt.jpg" alt="the magicians graphic tee" title="the magicians graphic tee" /></a>
+			<a href="img/mayTheForce.jpg"><img src="img/mayTheForce.jpg" alt="oh you punny force" title="oh you punny force" /></a>
+		</section>
+	</section>
+	
+	<hr class="dotted">
+	
+	<section id="about">
+		<img src="img/portrait.jpg" title="portrait" class="portrait" />
+		<p>Hello and welcome.<br><br>
+		My name is Amber Anderson, a digital illustrator located in Orange County, California.<br><br>
+		Most robust in illustration, though also knowledgable in graphic design and print design.<br><br>
+		<!--Occasionally a hobby photographer as well, focusing mostly on landscapes.-->
+		<!--BA in Visual Communication Design from Eastern Washington University. <br>-->
+		<!--PDF Resume available <a href="https://dl.dropboxusercontent.com/u/70829388/AmberAndersonResume.pdf">on Dropbox</a>-->
+		</p>
+	</section>
+	
+	<hr class="dotted">
+	
+	<p style="text-align: center;">where to find me elsewhere on the interwebz</p>&nbsp;
+    <section class="social">
+		<a href="https://instagram.com/chromeamber" title="instagramming"><img src="img/instagramIcon.png" title="instagramming" /></a>
+		<a href="https://www.deviantart.com/ambersphere" title="devious on deviant art"><img src="img/deviantArtIcon.png" title="devious on deviant art" /></a>
+		<a href="https://www.artstation.com/chromeamber" title="docked on artstation"><img src="img/artstationIcon.png" title="docked on artstation" /></a>
+        	<a href="http://twitter.com/chromeamber" title="tweet tweet"><img src="img/twitterIcon.png" title="tweet tweet" /></a>
+		<!--<a href="http://www.linkedin.com/in/ambercanderson" title="LinkedIn Profile"><img src="img/Linkedin.png" title="LinkedIn Profile" /></a>-->
+        	<!--<a href="http://www.designcreaturex.com" title="Infrequently Updated Blog"><img src="img/Wordpress.png" title="Infrequently Updated Blog" /></a>-->
+    </section>
+	<br><hr class="dotted"><br>
+</section>
 
-1. Numbered
-2. List
+<footer>
+	<p>my illustrations are available <a href="https://www.redbubble.com/people/ambersphere/shop">on redbubble</a></p>
+	<p>&copy; <script>document.write(new Date().getFullYear())</script> amber anderson</p>
+</footer>
 
-**Bold** and _Italic_ and `Code` text
+<!-- [if lt IE 9] -->
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<!-- [endif] -->
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dcreaturex/portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
