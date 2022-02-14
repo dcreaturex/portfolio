@@ -10,39 +10,47 @@ body {
 	text-align: center;
 }
 
-#main {
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+main {
 	/*border-top: 2px solid #000;
 	border-bottom: 2px solid #000;*/
 	color: #cceecc;
 }
-#main h1, h2, h3 , h4, h5, h6 {
+main h1, h2, h3 , h4, h5, h6 {
 	font: "Roboto Mono", 'Roboto', monospace;
 	font-weight: bold;
 	text-align: justify;
 }
-#main p {
+main p {
 	font: 1em "Roboto Mono", 'Roboto', monospace;
 	font-weight: bold;
 	margin: 0 auto;
 	max-width: 850px;
 	text-align: center;
 }
-#main a {
+main a {
 	color: #6CC;
 	text-decoration: none;
 }
-#main a:hover {
+main a:hover {
 	color: #ffaaff;
 	text-decoration: none;
 }
-#main a:visited {
-	color: #ee85ee;
+main a:visited {
+	color: #eeaaee;
 	text-decoration: none;
 }
 
 
 #menu {
 	font-size: 0.85em;
+	text-decoration: none;
 }
 #menu ul {
 	list-style: none;
@@ -54,6 +62,7 @@ body {
 }
 #menu a {
 	color: #fff;
+	font-size: 0.85em;
 	text-decoration: none;
 }
 #menu a:hover{
@@ -176,40 +185,6 @@ hr.dotted {
 }
 
 
-.lightbox {
-	/* default to hidden */
-	display: none;
-	
-	/* overlay entire screen */
-	position: fixed;
-	z-index: 999;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	
-	/* padding around image */
-	padding: 1em;
-	
-	/* translucent background */
-	background: rgba(0, 0, 0, 0.8);
-}
-.lightbox:target {
-	display: block;
-}
-.lightbox:active, .lightbox a {
-	/* full width and height  */
-	display: block;
-	width: 100%;
-	height: 100%;
-	
-	/* size and position background image  */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-
-
 .portrait {
 	clear: left;
 	border-radius: 50%;
@@ -246,6 +221,40 @@ hr.dotted {
 }
 
 
+.container-top {
+  display: flex;
+  align-items: flex-end;
+  width: 60px;
+}
+/* back to top button */
+.top {
+	position: sticky;
+	bottom: 20px;
+
+	--offset: 50px; 
+	margin-top: calc(100vh + var(--offset));
+
+	/* margin-left: 92%; */
+	margin-right: 10px;
+	place-self: end;
+
+	/* visual styling */
+	color: #dfd;
+	text-decoration: none;
+	padding: 8px 15px;
+	font-family: monospace;
+	background: rgba(42,42,42,0.69);
+	border-radius: 100px;
+	white-space: nowrap;
+}
+.top a:hover {
+	color: #9bf;
+}
+.top a:visited {
+	color: #dfd;
+}
+
+
 footer {
 	align: center;
 	background: #001122;
@@ -266,4 +275,3 @@ footer a {
 footer a:hover {
 	color: #ff6969;
 }
-
