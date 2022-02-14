@@ -53,6 +53,7 @@ main a:visited {
 	text-decoration: none;
 }
 #menu ul {
+	font-size: 0.85em;
 	list-style: none;
 	margin: 12px 6px;
 	padding: 0;
@@ -69,7 +70,7 @@ main a:visited {
 	color: #fad;
 }
 #menu a:visited {
-	color: #e8a;
+	color: #d8b;
 }
 
 
@@ -221,21 +222,20 @@ hr.dotted {
 }
 
 
-.container-top {
+/*.container-top {
   display: flex;
   align-items: flex-end;
   width: 60px;
-}
+} */
+
 /* back to top button */
 .top {
 	position: sticky;
-	bottom: 20px;
 
 	--offset: 50px; 
 	margin-top: calc(100vh + var(--offset));
-
-	/* margin-left: 92%; */
 	margin-right: 10px;
+	bottom: 20px;
 	place-self: end;
 
 	/* visual styling */
