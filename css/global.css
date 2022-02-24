@@ -1,50 +1,48 @@
 body {
-	/*background: #002345 center top fixed;
-	size: cover;*/
 	background: rgba(13,24,42,1);
 	background: linear-gradient(0deg, rgba(13,24,42,1) 0%, rgba(24,42,75,1) 42%, rgba(42,85,124,1) 100%);
-	color: #ecefec;
+	color: #cceecc;
 	font-family: 'Roboto Mono', 'Roboto', monospace, courier;
 	font-size: 1em;
 	font-weight: 700;
 	text-align: center;
 }
-
-/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
-@media screen and (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-}
-
-main {
+body {
 	/*border-top: 2px solid #000;
 	border-bottom: 2px solid #000;*/
 	color: #cceecc;
 }
-main h1, h2, h3 , h4, h5, h6 {
+body h1, h2, h3 , h4, h5, h6 {
 	font: "Roboto Mono", 'Roboto', monospace;
 	font-weight: bold;
 	text-align: justify;
 }
-main p {
+body p {
 	font: 1em "Roboto Mono", 'Roboto', monospace;
 	font-weight: bold;
 	margin: 0 auto;
 	max-width: 850px;
 	text-align: center;
 }
-main a {
+body a {
 	color: #6CC;
 	text-decoration: none;
 }
-main a:hover {
+body a:hover {
 	color: #ffaaff;
 	text-decoration: none;
 }
-main a:visited {
+body a:visited {
 	color: #eeaaee;
 	text-decoration: none;
+}
+
+
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 
@@ -167,20 +165,15 @@ hr.dotted {
 	text-align: center;
 }
 .gallery img {
-	/*background: rgba(200,242,242,1);*/
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	/*display: block;
-	margin: 0 auto;*/
 	margin-bottom: 5px;
-	/*padding: 5px;*/
 	transition: 0.85s;
 	width: 100% !important;
 	height: auto !important;
 }
 .gallery img:hover {
-	/*filter: drop-shadow(5px 5px 3px #bbccee);*/
 	filter: brightness(1.13) contrast(113%);
 	transform: scale(1.085);
 }
@@ -222,12 +215,6 @@ hr.dotted {
 }
 
 
-/*.container-top {
-  display: flex;
-  align-items: flex-end;
-  width: 60px;
-} */
-
 /* back to top button */
 .top {
 	position: sticky;
@@ -258,13 +245,13 @@ hr.dotted {
 footer {
 	align: center;
 	background: #001122;
+	bottom: 0;
 	clear: both;
 	color: #aaeedd;
 	font-family: "Roboto Mono", 'Roboto', monospace;
 	font-size: 1em;
 	font-weight: bold;
 	margin: 0 -6px -6px -6px;
-	/*max-width: 420px;*/
 	padding: 13px 6px;
 	text-align: center;
 	width: 100%;
