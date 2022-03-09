@@ -197,9 +197,9 @@ hr.dotted {
 
 .social img {
 	border: 2px solid #428542;
-	box-shadow: 10px 8px 6px #003;
-	-moz-box-shadow: 10px 8px 6px #003;
-	-webkit-box-shadow: 10px 8px 6px #003;
+	box-shadow: 6px 6px 4px #003;
+	-moz-box-shadow: 6px 6px 4px #003;
+	-webkit-box-shadow: 6px 6px 4px #003;
 	border-radius: 24%;
 	-moz-border-radius: 24%;
 	-webkit-border-radius: 24%;
@@ -209,9 +209,9 @@ hr.dotted {
 	padding: 8px;
 }
 .social img:hover {
-	box-shadow: 10px 8px 6px #666;
-	-moz-box-shadow: 10px 8px 6px #666;
-	-webkit-box-shadow: 10px 8px 6px #666;
+	box-shadow: 6px 6px 4px #336;
+	-moz-box-shadow: 6px 6px 4px #336;
+	-webkit-box-shadow: 6px 6px 4px #336;
 }
 
 
