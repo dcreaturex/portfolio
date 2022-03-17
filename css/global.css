@@ -7,11 +7,6 @@ body {
 	font-weight: 700;
 	text-align: center;
 }
-body {
-	/*border-top: 2px solid #000;
-	border-bottom: 2px solid #000;*/
-	color: #cceecc;
-}
 body h1, h2, h3 , h4, h5, h6 {
 	font: "Roboto Mono", 'Roboto', monospace;
 	font-weight: bold;
@@ -99,10 +94,6 @@ hr.dotted {
 	color: #ffffff;
 	font-size: 1.24em;
 }
-/*.description {
-	color: #ddffdd;
-	font-size: 130%;
-}*/
 #illustration {
 	color: #ffffff;
 	text-align: center;
@@ -113,7 +104,6 @@ hr.dotted {
 	box-shadow: 0 0 10px #000 inset;
 	-moz-box-shadow: 0 0 10px #000 inset;
 	-webkit-box-shadow: 0 0 10px #000 inset;
-	/*border: 1px solid #C66;*/
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -209,9 +199,9 @@ hr.dotted {
 	padding: 8px;
 }
 .social img:hover {
-	box-shadow: 6px 6px 4px #336;
-	-moz-box-shadow: 6px 6px 4px #336;
-	-webkit-box-shadow: 6px 6px 4px #336;
+	box-shadow: 6px 6px 4px #026;
+	-moz-box-shadow: 6px 6px 4px #026;
+	-webkit-box-shadow: 6px 6px 4px #026;
 }
 
 
